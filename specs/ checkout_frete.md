@@ -4,6 +4,6 @@
 THE SYSTEM SHALL calcular o valor total adicionando a taxa de frete padrão de R$ 15,00 ao subtotal do carrinho.
 
 ## REQ-02
-IF o subtotal do carrinho for maior ou igual a R$ 200,00,
+IF o subtotal do carrinho for maior ou igual a R$ 250,00,
 THEN THE SYSTEM SHALL conceder frete grátis, com taxa de R$ 0,00.
 
