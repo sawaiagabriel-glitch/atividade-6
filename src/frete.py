@@ -7,3 +7,11 @@ def calcular_frete(valor_carrinho, regiao=None):
 def calcular_total_com_frete(valor_carrinho):
     frete = calcular_frete(valor_carrinho)
     return valor_carrinho + frete
+
+if __name__ == "__main__":
+    import sys
+
+    valor = float(sys.argv[1])
+    frete = calcular_frete(valor)
+
+    print(frete)

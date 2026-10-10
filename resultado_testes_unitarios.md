@@ -36,3 +36,21 @@ Resultado obtido:
 
 Status:
 [APROVADO ou REPROVADO]
+
+Exercício 6.4 — Teste Funcional
+
+Fluxo testado:
+Execução do cálculo de frete pela interface de linha de comando.
+
+Casos:
+- valor do carrinho = R$ 200,00 → frete = R$ 15,00
+- valor do carrinho = R$ 250,00 → frete = R$ 0,00
+
+Comando executado:
+python -m pytest tests/test_funcional_frete.py
+
+Resultado:
+[preencher com o resultado real]
+
+Status:
+[APROVADO ou REPROVADO]
