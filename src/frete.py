@@ -3,3 +3,7 @@ def calcular_frete(valor_carrinho, regiao=None):
         return 0.0
 
     return 15.0
+
+def calcular_total_com_frete(valor_carrinho):
+    frete = calcular_frete(valor_carrinho)
+    return valor_carrinho + frete
